@@ -1,0 +1,120 @@
+{
+  "groups": [
+    {
+      "name": "onion.dynamic-datasource",
+      "type": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "onion.dynamic-datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.type",
+      "type": "org.onion.web.core.datasource.DatabaseType",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.datasource-name",
+      "type": "java.lang.String",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.testQuery",
+      "type": "java.lang.String",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.max-life-time",
+      "type": "java.lang.Integer",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.min-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.max-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.borrow-connection-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.reap-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.max-idle-time",
+      "type": "java.lang.Integer",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.maintenance-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.default-isolation-level",
+      "type": "java.lang.Integer",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.transaction-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    },
+    {
+      "name": "onion.dynamic-datasource.properties",
+      "type": "java.util.Properties",
+      "sourceType": "org.onion.web.datasource.dynamic.DynamicDataSourceProperties"
+    }
+  ],
+  "hints": [
+    {
+      "name": "onion.dynamic-datasource.type",
+      "values": [
+        {
+          "value": "h2",
+          "description": "use h2 database."
+        },
+        {
+          "value": "mysql",
+          "description": "use mysql database."
+        },
+        {
+          "value": "oracle",
+          "description": "use oracle database."
+        }
+      ]
+    }
+  ]
+}

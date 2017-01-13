@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "name": "onion.app",
+      "type": "org.onion.web.starter.AppProperties",
+      "sourceType": "org.onion.web.starter.AppProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "onion.app.name",
+      "type": "java.lang.String",
+      "sourceType": "org.onion.web.starter.AppProperties",
+      "defaultValue": "default"
+    },
+    {
+      "name": "onion.app.comment",
+      "type": "java.lang.String",
+      "sourceType": "org.onion.web.starter.AppProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "onion.app.website",
+      "type": "java.lang.String",
+      "sourceType": "org.onion.web.starter.AppProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "onion.app.version",
+      "type": "java.lang.String",
+      "sourceType": "org.onion.web.starter.AppProperties",
+      "defaultValue": "default"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,64 @@
+#LOGGING
+logging:
+    config: classpath:config/logback.xml
+server:
+    port: 8088
+multipart:
+    enabled: true
+    maxFileSize: 100Mb
+    maxRequestSize: 100Mb
+    location: ./upload
+#启用登录
+login:
+    enable: true
+#spring config
+spring:
+    aop:
+        auto: true
+    application:
+        name: ${app.name}
+        version: ${app.version}
+#    datasource:
+#        name: core
+#        url: ${jdbc.url}
+#        username: ${jdbc.username}
+#        password: ${jdbc.password}
+#        type: com.alibaba.druid.pool.DruidDataSource
+#        filters: stat
+#        maxActive: 20
+#        initialSize: 1
+#        maxWait: 60000
+#        minIdle: 1
+#        timeBetweenEvictionRunsMillis: 60000
+#        minEvictableIdleTimeMillis: 300000
+#        validationQuery: select 'x'
+#        testWhileIdle: true
+#        testOnBorrow: false
+#        testOnReturn: false
+#        poolPreparedStatements: true
+#        maxOpenPreparedStatements: 20
+    freemarker :
+        suffix : .ftl
+        request-context-attribute : request
+        expose-request-attributes : true
+    mvc:
+        favicon:
+            enabled: false
+    messages:
+        basename: messages
+    cache:
+        #type: redis
+        type: simple
+    redis :
+        host: 127.0.0.1
+        port: 6379
+# MyBatis
+mybatis:
+    mapper-locations:
+    config: classpath:config/mybatis-config.xml
+hsweb:
+    dynamic-datasource:
+          url: ${jdbc.url}
+          username: ${jdbc.username}
+          password: ${jdbc.password}
+    access-logger: on
